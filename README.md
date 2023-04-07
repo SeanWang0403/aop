@@ -61,6 +61,8 @@
   
   * **N個 : Around(1) -->Before(1) -->Around(2) -->Before(2) --> .... -->Around(N) --> Before(N) -->Method -->AfterThrowing(N) --> After(N) --> ... -->AfterThrowing(2) --> After(2) -->AfterThrowing(1) --> After(1)**
 
+**※ AOP預設根據字母排序順序執行，使用Order可以決定順序，數字越小越先執行**
+
 # 參考來源
 
 ##### 1. [AOP 觀念與術語](https://openhome.cc/Gossip/SpringGossip/AOPConcept.html)
